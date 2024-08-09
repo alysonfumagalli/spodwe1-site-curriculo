@@ -27,9 +27,13 @@
 }
 
 #competencias img {
-    width: 6vh;
+    width: 8.9vh;
     margin-right: 2vh;
+    display: inline;
+    font-size: 1vh;
+    color: #000;
 }
+
 
 #competencias table {
     width: 100%;
