@@ -1,0 +1,43 @@
+#projetos {
+    margin-left: 6vh;
+    display: flex;
+    height: 70vh;
+    align-items: center;
+}
+
+#projetos dl {
+    max-width: 95%;
+}
+
+#projetos dt {
+    font-size: 2.5vh;
+    margin-bottom: 2vh;
+}
+
+#projetos dt span {
+    font-weight: bold;
+}
+
+#projetos dd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+    width: 90%;
+    font-size: 2vh;
+    padding: 1vh;
+}
+
+#projetos dd p {
+    background-color: #41026b;
+    padding: 1.5vh;
+    border-radius: 2vh;
+}
+
+#projetos img {
+    width: 15vh;
+    margin-left: 5vh;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 0.5vh;
+}

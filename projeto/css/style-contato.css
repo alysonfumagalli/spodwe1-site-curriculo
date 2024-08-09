@@ -1,0 +1,55 @@
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contato-conteudo p {
+    margin-left: 6vh;
+    font-size: 2vh;
+}
+
+#contato-form {
+    margin: 5vh;
+    display: flex;
+    justify-content: center;
+    background-color: #41026b;
+    width: 65vh;
+    border-radius: 5vh;
+}
+
+#contato-form label {
+    font-size: 2.5vh;
+}
+
+#contato-form input {
+    width: 56vh;
+    height: 3vh;
+    border-radius: 2vh;
+    padding: 0.7vh;
+    margin-top: 1vh;
+    font-size: 2vh;
+    text-align: center;
+    border: none;
+}
+
+#contato-form #botao-enviar {
+    width: 10vh;
+    cursor: pointer;
+    margin-top: 0;
+    font-size: 1.5vh;
+    background-color: #e3e2e1;
+    
+}
+
+#contato-form textarea {
+    border-radius: 2vh;
+    padding: 0.7vh;
+    margin-top: 1vh;
+    font-size: 2vh;
+    border: none;
+}
+
+.campo, #botao-enviar {
+    margin: 3vh;
+}
